@@ -1,0 +1,63 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.metric {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.metric h3 {
+  font-size: 18px;
+  color: #444;
+}
+
+.metric p {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.link-container a {
+  display: block;
+  padding: 65px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 9px;
+  transition: background-color 0.3s;
+}
+
+.link-container a:hover {
+  background-color: #0b57a8;
+}

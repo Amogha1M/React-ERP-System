@@ -1,0 +1,58 @@
+/* Orders.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Set a background color for the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #0b0c0c; /* Update the heading color */
+    margin-bottom: 20px; /* Add some bottom margin for separation */
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .order-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-item h3 {
+    color: #007bff;
+    margin-bottom: 10px; /* Add some bottom margin for separation */
+  }
+  
+  .order-item p {
+    color: #666;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Set a background color for the form container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  

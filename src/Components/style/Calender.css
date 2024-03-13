@@ -1,0 +1,56 @@
+/* OrdersCalendar.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .calendar-container {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    border: none;
+  }
+  
+  .react-calendar__navigation {
+    background-color: #1f3144;
+    color: #fff;
+  }
+  
+  .react-calendar__month-view__days__day {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .react-calendar__tile--hover {
+    background-color:#e6f7ff;
+  }
+  
+  .react-calendar__tile--now {
+    background-color: #e6f7ff;
+    color: #333;
+  }
+  
