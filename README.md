@@ -2,12 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## install npm 
+## Install npm 
    ###  `npm install` 
    ###  `npm install react-router-dom` (if needed)
    ###  `npm install react-bootstrap` (if needed)
 
-## go to the directory
+## Go to the directory
 In the project directory, you can run:
    ### `npm start`
 
